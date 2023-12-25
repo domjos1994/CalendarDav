@@ -1,0 +1,31 @@
+{
+  "name": "domjos1994/calendardav",
+  "type": "typo3-cms-extension",
+  "description": "Extension to import, show and plan with calendars via caldav.",
+  "require": {
+    "php": "^8.0",
+    "typo3/cms-backend": "^11.5 || ^12.4",
+    "typo3/cms-core": "^11.5 || ^12.4"
+  },
+  "require-dev": {
+    "typo3/coding-standards": "^0.7.1"
+  },
+  "authors": [
+    {
+      "name": "Dominic Joas",
+      "role": "Developer",
+      "email": "developing@domjos.de",
+      "homepage": "https://domjos.de/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "domjos1994\\calendardav\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "calendardav"
+    }
+  }
+}
